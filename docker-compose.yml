@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  uv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app
+    env_file:
+      - .env
+    ports:
+      - "8545:8545"  # optional, only if you want access to anvil from host

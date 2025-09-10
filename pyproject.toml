@@ -1,0 +1,11 @@
+[project]
+name = "ETM"
+version = "0.1.0"
+description = "Telegram Ethereum Bot"
+readme = "README.md"
+requires-python = "==3.13"
+dependencies = [
+    "python-dotenv>=1.1.1,<2.0.0",
+    "python-telegram-bot==22.3",
+    "web3==7.13.0",
+]
